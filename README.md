@@ -26,3 +26,9 @@ python -m pip install --upgrade pip
 # install pyvmomi
 
 pip install --upgrade pyvmomi
+
+pip install ndg-httpsclient
+
+pip install pyopenssl
+
+pip install pyasn1
