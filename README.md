@@ -22,3 +22,7 @@ sudo apt-get install python3-pip
 pip install --upgrade pip
 
 python -m pip install --upgrade pip
+
+# install pyvmomi
+
+pip install --upgrade pyvmomi
