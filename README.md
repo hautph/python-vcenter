@@ -2,6 +2,11 @@
 
 Python connect vCenter
 
+# install pip on Redhat - Centos
+
+yum install python2-pip.noarch
+
+
 # install pip on Ubuntu - Debian
 
 sudo apt-get update && sudo apt-get -y upgrade
