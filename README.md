@@ -6,7 +6,7 @@ Python connect vCenter
 
 yum install python2-pip.noarch
 
-
+yum install python-ndg_httpsclient.noarch
 # install pip on Ubuntu - Debian
 
 sudo apt-get update && sudo apt-get -y upgrade
