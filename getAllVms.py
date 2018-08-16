@@ -7,7 +7,7 @@ import ssl
  
 s=ssl.SSLContext(ssl.PROTOCOL_TLSv1)
 s.verify_mode=ssl.CERT_NONE
-si= SmartConnect(host="x.x.x.x", user="Administrator@vsphere.local", pwd="your_pass_word",sslContext=s)
+si= SmartConnect(host="x.x.x.x", user="Administrator@vsphere.local", pwd="your_password",sslContext=s)
 content=si.content
  
 # Method that populates objects of type vimtype
